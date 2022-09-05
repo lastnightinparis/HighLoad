@@ -1,0 +1,16 @@
+databaseChangeLog:
+  - changeSet:
+      id: create-test-table
+      author: Kirill
+      changes:
+        - createTable:
+              tableName: test
+              columns:
+                - column:
+                    autoIncrement: true
+                    constraints:
+                      nullable: false
+                      primaryKey: true
+                      primaryKeyName: user_pkey
+                    name: id
+                    type: BIGINT

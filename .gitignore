@@ -21,7 +21,7 @@ target/
 mvnw
 .mvn/
 *.cmd
-
+/out
 ### NetBeans ###
 /nbproject/private/
 /nbbuild/
